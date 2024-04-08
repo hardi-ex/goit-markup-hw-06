@@ -155,7 +155,7 @@ img {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 15px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -493,6 +493,7 @@ img {
 
 .team .container {
   padding: 0 28px;
+  background-color: #f4f4fd;
 }
 
 @media only screen and (min-width: 768px) {
@@ -731,10 +732,8 @@ img {
 }
 
 .portfolio-block {
-  display: flex;
   position: relative;
   overflow: hidden;
-  justify-content: center;
 }
 /* #endregion Portfolio 4*/
 
@@ -1154,6 +1153,7 @@ img {
 }
 
 .modal-message {
+  display: block;
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
